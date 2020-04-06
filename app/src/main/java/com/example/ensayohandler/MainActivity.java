@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         /*
-        Aqui creo un hilo de ejecucion que solamente muestra una tostada.
+        Aqui defino un hilo de ejecucion que solamente muestra una tostada.
          */
         final Handler unHandler = new Handler() {
             @Override
